@@ -1,17 +1,21 @@
 <?php
-class SimpleClass {
 
+class SimpleClass
+{
 	public $var = null;
 
-	public function setVar($value) {
+	public function setVar($value)
+    {
 		$this->var = $value;
 	}
 
-	public function getVar() {
+	public function getVar()
+    {
 		return $this->var;
 	}
 
-	public function setVar2($value) {
+	public function setVar2($value)
+    {
 		$var = $value;
 	}
 }
