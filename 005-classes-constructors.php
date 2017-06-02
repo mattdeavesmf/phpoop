@@ -1,9 +1,11 @@
 <?php
-class MySimpleClass {
 
+class MySimpleClass
+{
 	public $var = null;
 
-	public function __construct($var) {
+	public function __construct($var)
+    {
 		$this->var = $var;
 	}
 }
